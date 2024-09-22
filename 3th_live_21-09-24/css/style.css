@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+.header {
+    margin: 35px 0 0 0;
+    background-color: rgba(47, 202, 251, 0.1);
+    border: 2px solid rgba(47, 202, 251, 1);
+    border-radius: 5px;
+    padding: 32px 40px;
+}
+
+.header_title {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(246, 176, 71, 1);
+    border-radius: 5px;
+    padding: 18px 50px;
+}
+
+.navigation_list {
+    display: flex;
+    margin: 35px 0 0 0;
+    background-color: rgba(246, 176, 71, 0.13);
+    border: 2px solid rgba(246, 176, 71, 1);
+    border-radius: 5px;
+    padding: 18px 50px;
+}
+
+.navigation_list_footer {
+    display: flex;
+    background-color: rgba(246, 176, 71, 0.13);
+    border: 2px solid rgba(246, 176, 71, 1);
+    border-radius: 5px;
+    padding: 18px 50px;
+}
+
+.navigation_list li:not(:last-child) {
+    padding-right: 96px;
+}
+
+.navigation_list_footer li:not(:last-child) {
+    padding-right: 96px;
+}
+
+.main {
+    margin: 35px 0 0 0;
+    background-color: rgba(47, 202, 251, 0.1);
+    border: 2px solid rgba(47, 202, 251, 1);
+    border-radius: 5px;
+    padding: 32px 40px;
+}
+
+.about_me {
+    background-color: rgba(33, 255, 108, 0.13);
+    border: 2px solid rgba(33, 255, 108, 1);
+    border-radius: 5px;
+    padding: 32px 40px;
+}
+
+.about_me h2 {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(246, 176, 71, 1);
+    border-radius: 5px;
+    padding: 18px 50px;
+}
+
+.about_me p {
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 74, 74, 1);
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+
+.skills {
+    margin-top: 35px;
+    background-color: rgba(33, 255, 108, 0.13);
+    border: 2px solid rgba(33, 255, 108, 1);
+    border-radius: 5px;
+    padding: 32px 40px;
+}
+
+.ad {
+    margin-top: 35px;
+    background-color: rgba(33, 255, 108, 0.13);
+    border: 2px solid rgba(33, 255, 108, 1);
+    border-radius: 5px;
+    padding: 32px 40px;
+}
+
+.footer {
+    margin: 35px 0 0 0;
+    background-color: rgba(47, 202, 251, 0.1);
+    border: 2px solid rgba(47, 202, 251, 1);
+    border-radius: 5px;
+    padding: 32px 40px;
+}
